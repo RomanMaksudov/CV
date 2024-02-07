@@ -1,15 +1,4 @@
 @charset "UTF-8";
-/*!
-* Start Bootstrap - Resume v7.0.6 (https://startbootstrap.com/theme/resume)
-* Copyright 2013-2023 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-resume/blob/master/LICENSE)
-*/
-/*!
- * Bootstrap  v5.2.3 (https://getbootstrap.com/)
- * Copyright 2011-2022 The Bootstrap Authors
- * Copyright 2011-2022 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -600,6 +589,14 @@ progress {
 }
 
 .img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-thumbnail {
+  padding: 0.25rem;
+  background-color: #fff;
+  border-radius: 0.375rem;
   max-width: 100%;
   height: auto;
 }
@@ -10890,9 +10887,9 @@ p.lead {
     padding: 0.5rem;
   }
   #sideNav .navbar-brand .img-profile {
-    max-width: 10rem;
-    max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    max-width: 15rem;
+    max-height: 15rem;
+    border: 0.5px solid rgba(255, 255, 255, 0.2);
   }
   #sideNav .navbar-collapse {
     display: flex;
